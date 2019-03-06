@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>QuadraticEquation</display-name>
+  <welcome-file-list>
+    <welcome-file>MainFile</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>Контроллер</description>
+    <display-name>MainFile</display-name>
+    <servlet-name>MainFile</servlet-name>
+    <servlet-class>kz.damir211.jsp.MainFile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MainFile</servlet-name>
+    <url-pattern>/MainFile</url-pattern>
+  </servlet-mapping>
+</web-app>
