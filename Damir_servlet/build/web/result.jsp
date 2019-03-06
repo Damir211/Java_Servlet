@@ -8,6 +8,7 @@
 <head>
 <title>Решение квадратного уравнения</title>
 <link href="newcss.css" rel="stylesheet">
+<link rel="shortcut icon" href="icon.png" type="image/x-icon">
 </head>
 <body>
     <div class="action2">
